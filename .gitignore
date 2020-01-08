@@ -1,0 +1,136 @@
+# custom
+.expo
+.vscode
+reference
+Pods/
+__generated__
+ios/wifitest/Supporting/EXBuildConstants.json
+ios/wifitest/Supporting/EXBuildConstants.plist
+ios/wifitest/Supporting/EXBuildConstants.plist.bak
+ios/wifitest/Supporting/shell-app-manifest.json
+ios/wifitest/Supporting/shell-app.bundle
+ios/wifitest/Supporting/EXBuildConstants.json
+ios/wifitest/Supporting/EXBuildConstants.plist
+ios/wifitest/Supporting/EXBuildConstants.plist.bak
+ios/wifitest/Supporting/shell-app-manifest.json
+ios/wifitest/Supporting/shell-app.bundle
+
+# Xcode
+!**/*.xcodeproj
+!**/*.pbxproj
+!**/*.xcworkspacedata
+!**/*.xcsettings
+!**/*.xcscheme
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Gradle
+**/build/**
+/RNTester/android/app/build/
+/RNTester/android/app/gradle/
+/RNTester/android/app/gradlew
+/RNTester/android/app/gradlew.bat
+/ReactAndroid/build/
+
+# Buck
+.buckd
+buck-out
+/ReactAndroid/src/main/jni/prebuilt/lib/armeabi-v7a/
+/ReactAndroid/src/main/jni/prebuilt/lib/x86/
+/ReactAndroid/src/main/gen
+
+# Watchman
+.watchmanconfig
+
+# Android
+.idea
+local.properties
+*.iml
+*.apk
+ReactAndroid-temp.aar
+*.ap_
+*.aab
+*.dex
+*.class
+/android/**/bin/
+/android/**/gen/
+/android/**/out/
+.gradle/
+captures/
+.navigation/
+/android/app/src/main/java/host/exp/exponent/generated/AppConstants.java
+/android/app/src/main/assets/shell-app-manifest.json
+/android/app/src/main/assets/shell-app.bundle
+/android/app/src/main/java/host/exp/exponent/generated/*
+
+
+# Node
+node_modules
+*.log
+.nvm
+/bots/node_modules/
+package-lock.json
+
+# OS X
+.DS_Store
+
+# Test generated files
+/ReactAndroid/src/androidTest/assets/AndroidTestBundle.js
+*.js.meta
+
+/coverage
+/third-party
+
+# Root dir shouldn't have Xcode project
+/*.xcodeproj
+
+# ReactCommon subdir shouldn't have Xcode project
+/ReactCommon/**/*.xcodeproj
+RNTester/build
+
+# CocoaPods
+/template/ios/Pods/
+/template/ios/Podfile.lock
+RNTester/RNTesterPods.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+#macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
